@@ -1,0 +1,26 @@
+.card-post-item {
+    margin-top: 16px; }
+  
+  .user-avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin-right: 4px; }
+  
+    .card-img-top.edit{
+      height: 360px;
+  }
+  
+  /* .form-control {
+    width: auto;
+  } */
+  .login {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #ced4da;
+    padding: 10px;
+    max-width: 400px;
+    display: inline-block;
+  }
