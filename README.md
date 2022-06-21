@@ -1,4 +1,4 @@
-# blog được hỗ trợ API sử dụng NodeJs, ExpressJs, MongoDB.
+# blog được viết bằng resful API sử dụng NodeJs, ExpressJs, MongoDB.
  File export database được lưu vào data/seed.
  
  Hệ thống cho phép người dùng (User) đăng ký, đăng nhập tài khoản . Thông tin tài khoản có các trường sau: email, password, userName, age, gender, isAdmin, post_ids.
