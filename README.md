@@ -1,4 +1,4 @@
-# blog được viết bằng resful API sử dụng NodeJs, ExpressJs, MongoDB.
+# blog được viết bằng restful API sử dụng NodeJs, ExpressJs, MongoDB.
  File export database được lưu vào data/seed.
  
  Hệ thống cho phép người dùng (User) đăng ký, đăng nhập tài khoản . Thông tin tài khoản có các trường sau: email, password, userName, age, gender, isAdmin, post_ids.
@@ -10,7 +10,7 @@ viết chỉ thuộc 1 danh mục duy nhất.
 Mỗi người dùng có thể tạo nhiều bài viết, mỗi bài viết chỉ thuộc về duy nhất một người dùng.
 
 Các chức năng chính:
-- Đăng nhập, đăng ký tài khoản (sử dụng authentication, jwt để lưu thông tin user mỗi khi đăng nhập, jwt được lưu ở cookies). Email là trường để định danh người dùng (sử dụng attribute unique : true trong Scheme)
+- Đăng nhập, đăng ký tài khoản (sử dụng authentication, jwt để lưu thông tin user mỗi khi đăng nhập, jwt được lưu ở cookies). Email là trường để định danh người dùng (sử dụng attribute unique : true trong Schema)
 - Chỉnh sửa thông tin tài khoản (Bao gồm thay đổi mật khẩu - mật khẩu được mã hóa bằng bcrypt). Email không thể thay đổi ( admin có thể edit thông tin tất cả nhân viên sử dụng authorization, nhân viên chỉ có thể edit thông tin cá nhân)
 - Hiển thị danh sách các bài viết theo người dùng hoặc xem tất cả bài viết của mọi người. Phân chia thành 3 loại:
   1. ALL: Tất cả bài viết
